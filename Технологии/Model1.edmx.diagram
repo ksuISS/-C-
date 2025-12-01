@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2364453308e6464085dc722a102e265c" Name="Diagram1">
+        <EntityTypeShape EntityType="tecnoModel.Material_" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="tecnoModel.material_type_" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="tecnoModel.MaterialInProduct" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="tecnoModel.ParthAndProd_" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tecnoModel.Partner_" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tecnoModel.Partner_type_" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tecnoModel.production_" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tecnoModel.production_type_" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="tecnoModel.sysdiagram" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="tecnoModel.FK_Material__material_type_" ManuallyRouted="false" />
+        <AssociationConnector Association="tecnoModel.FK_MaterialInProduct_Material_" ManuallyRouted="false" />
+        <AssociationConnector Association="tecnoModel.FK_MaterialInProduct_production_" ManuallyRouted="false" />
+        <AssociationConnector Association="tecnoModel.FK_ParthAndProd__Partner_" ManuallyRouted="false" />
+        <AssociationConnector Association="tecnoModel.FK_ParthAndProd__production_" ManuallyRouted="false" />
+        <AssociationConnector Association="tecnoModel.FK_Partner__Partner_type_" ManuallyRouted="false" />
+        <AssociationConnector Association="tecnoModel.FK_production__production_type_" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
